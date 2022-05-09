@@ -1,12 +1,17 @@
 import './App.css';
-import Main from './components/main/Main';
-import Topo from './components/topo/Topo';
+import Rotas from './components/routes/Rotas';
+import Home from './components/home/Home';
+import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <Topo />
-      <Main />
+      
+      <Router> 
+        <Home />
+        <Rotas />
+      </Router>
+      
     </div>
   );
 }

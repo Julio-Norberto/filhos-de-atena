@@ -16,11 +16,12 @@
 
 .header button {
     border: none;
-    width: 100px;
-    height: 25px;
+    width: 140px;
+    height: 28px;
     border-radius: 3px;
     background-color: #696E79;
     color: white;
+    font-weight: bold;
 }
 
 .header button:hover {

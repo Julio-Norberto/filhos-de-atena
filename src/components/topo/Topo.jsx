@@ -1,6 +1,5 @@
 import React from "react";
 import './Topo.css'
-import coruja from '../../images/corujabook.png'
 
 export default () => {
     return (
