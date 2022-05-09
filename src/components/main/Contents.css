@@ -15,7 +15,7 @@
 .text-content h1 {
     margin-bottom: 25px;
     font-size: 4em;
-    color: #01C38D;
+    color: #696E79;
     box-shadow: 0 2px;
     padding-bottom: 5px;
 }
@@ -26,16 +26,18 @@
 }
 
 .text-content a {
-    border: 1px solid #01C38D;
+    border: 1px solid #696E79;
+    border-radius: 5px;
     padding: 5px 25px;
     margin-top: 15px;
     text-decoration: none;
     color: azure;
-    background-color: #01C38D;
+    background-color: #696E79;
     font-weight: bold;
 }
 
 .text-content a:hover {
-    background-color: #01a476;
-    border: 1px solid #01a476;
+    background-color: azure;
+    border: 1px solid azure;
+    color: black;
 }
