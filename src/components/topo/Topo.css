@@ -1,0 +1,41 @@
+.container {
+    background-image: url(../../images/mulhercomopacidade.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 220px;
+    align-items: center;
+}
+
+.header button {
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #696E79;
+    color: white;
+}
+
+.header button:hover {
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+
+.header h1, button {
+    margin-top: 45px;
+}
+
+.apresentacao {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: azure;
+}

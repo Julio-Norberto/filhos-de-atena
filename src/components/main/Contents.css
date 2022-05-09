@@ -1,0 +1,41 @@
+.Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 200px auto;
+}
+
+.text-content {
+    width: 50%;
+
+}
+
+.text-content h1 {
+    margin-bottom: 25px;
+    font-size: 4em;
+    color: #01C38D;
+    box-shadow: 0 2px;
+    padding-bottom: 5px;
+}
+
+.text-content p {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+}
+
+.text-content a {
+    border: 1px solid #01C38D;
+    padding: 5px 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: azure;
+    background-color: #01C38D;
+    font-weight: bold;
+}
+
+.text-content a:hover {
+    background-color: #01a476;
+    border: 1px solid #01a476;
+}
