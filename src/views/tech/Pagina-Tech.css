@@ -1,0 +1,25 @@
+.tech {
+    background-image: url(../../images/gragodemascaraopa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.tech-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.tech-topo h1 {
+    font-size: 4rem;
+    margin-bottom: 25px;
+    color: #01C38D;
+}
+
+.tech-topo p {
+    font-size: 1.3rem;
+    color: azure;
+}

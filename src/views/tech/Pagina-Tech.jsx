@@ -1,10 +1,13 @@
 import React from "react";
+import './Pagina-Tech.css'
 
 export default (props) => {
     return (
-        <div>
-            <h1>Tecnologia</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod molestiae qui ullam enim, eum omnis reiciendis eius deserunt soluta aliquam reprehenderit porro facilis. Recusandae magni beatae fuga praesentium dicta repellat!</p>
+        <div className="tech">
+            <div className="tech-topo">
+                <h1>Tecnologia</h1>
+                <p>Aprenda sobre redes de computadores, programação, hacking e muito mais...</p>
+            </div>
         </div>
     )
 }
