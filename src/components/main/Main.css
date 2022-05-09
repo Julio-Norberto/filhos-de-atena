@@ -1,0 +1,23 @@
+.bg-tech {
+    background-image: url(../../images/backgtehc.jpg);
+    width: 80%;
+    height: 330px;
+    margin: 0 auto;
+}
+
+.bg-ciencias {
+    width: 80%;
+    height: 330px;
+    margin: 0 auto;
+    background-image: url(../../images/backgciencias.jpg);
+}
+
+.bg-filosofia {
+    width: 80%;
+    height: 330px;
+    margin: 0 auto;
+    background-image: url(../../images/backgfilosofia.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}

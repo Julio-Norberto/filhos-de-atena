@@ -8,9 +8,15 @@ import brain from '../../images/cherry-108.png'
 export default (props) => {
     return (
         <div className="Main">
-            <Contents caminho="tech" title="Tecnologia" img={tech} desc="Aprenda conceitos de diversas áreas da tecnologia como desenvolvimento front-end, back-end, hacking, redes e muito mais." />
-            <Contents caminho="ciencias" title="Ciências" img={atom} desc="Aprenda conceitos de diversas áreas da tecnologia como desenvolvimento front-end, back-end, hacking, redes e muito mais." />
-            <Contents caminho="filosofia" title="Filosofia" img={brain} desc="Aprenda conceitos de diversas áreas da tecnologia como desenvolvimento front-end, back-end, hacking, redes e muito mais." />
+            <div className="bg-tech">
+                <Contents caminho="tech" title="Tecnologia" img={tech} desc="Aprenda conceitos de diversas áreas da tecnologia como desenvolvimento front-end, back-end, hacking, redes e muito mais." />
+            </div>
+            <div className="bg-ciencias">
+                <Contents caminho="ciencias" title="Ciências" img={atom} desc="Aprenda conceitos de diversas áreas da tecnologia como desenvolvimento front-end, back-end, hacking, redes e muito mais." />
+            </div>
+            <div className="bg-filosofia">
+                <Contents caminho="filosofia" title="Filosofia" img={brain} desc="Aprenda conceitos de diversas áreas da tecnologia como desenvolvimento front-end, back-end, hacking, redes e muito mais." />
+            </div>
         </div>
     )
 }
