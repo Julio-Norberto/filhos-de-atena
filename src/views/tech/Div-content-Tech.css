@@ -1,0 +1,24 @@
+.component-tech {
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.component-tech h1 {
+    color: #01C38D;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.component-tech p {
+    text-align: justify;
+    margin-bottom: 10px;
+    color: azure;
+}
+
+.component-tech a {
+    color: #01C38D;
+}
+
+.component-tech a:hover {
+    color: #13f6b5;
+}
