@@ -5,6 +5,7 @@
     height: 70vh;
 }
 
+
 .tech-topo {
     display: flex;
     justify-content: center;
@@ -14,9 +15,10 @@
 }
 
 .tech-topo h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-bottom: 25px;
     color: #01C38D;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .tech-topo p {
