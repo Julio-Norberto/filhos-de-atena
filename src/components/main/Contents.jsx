@@ -8,7 +8,7 @@ export default (props) => {
             <div className="text-content">
                 <h1>{props.title}</h1>
                 <p>{props.desc}</p>
-                <Link to={`/${props.caminho}`}>Acessar</Link>
+                <Link target="_top" to={`/${props.caminho}`}>Acessar</Link>
             </div>
             <div className="img-content">
                 <img width="300px" src={props.img} alt="" />
