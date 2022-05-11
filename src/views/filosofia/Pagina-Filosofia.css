@@ -1,0 +1,35 @@
+.filosofia {
+    background-image: url(../../images/backgfilosofia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+
+.tech-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.tech-topo h1 {
+    font-size: 4.5rem;
+    margin-bottom: 25px;
+    color: #01C38D;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tech-topo p {
+    font-size: 1.3rem;
+    color: azure;
+}
+
+.component-content {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
