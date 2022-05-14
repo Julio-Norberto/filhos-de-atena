@@ -4,8 +4,10 @@
 }
 
 body {
+  background-image: url(./images/bg-body.jpg);
+  background-size: cover;
+  background-position: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #191E29;
   color: white;
   width: 100%
 }

@@ -26,10 +26,43 @@
     color: azure;
 }
 
-.component-content {
-    width: 80%;
+.types {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 30%;
     margin: 100px auto;
+}
+
+.content-types {
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.content-types h1 {
+    margin-bottom: 25px;
+    color: #01C38D;
+}
+
+.content-types p {
+    margin-bottom: 30px;
+}
+
+.links {
+    padding: 10px 75px;
+    border: 1px solid #01C38D;
+    border-radius: 5px;
+    background-color: #01C38D;
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+}
+
+.links:hover {
+    background-color: #11fab8;
+    color: rgb(255, 255, 255);
 }
