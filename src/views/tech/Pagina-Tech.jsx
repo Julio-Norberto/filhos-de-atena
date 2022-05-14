@@ -23,13 +23,13 @@ export default (props) => {
                 <div className="types">
                     <h1>Hacking</h1>
                     <p>Aprenda sobre os pilares da segurança da informação e sobre ferramentas de pentest</p>
-                    <Link className="links" to={"/tech/programacao"}>Acessar...</Link>
+                    <Link className="links" to={"/tech/hacking"}>Acessar...</Link>
                 </div>
 
                 <div className="types">
                     <h1>Redes</h1>
                     <p>Aprenda sobre os conceitos de redes de computadores, equipamentos e serviços</p>
-                    <Link className="links" to={"/tech/programacao"}>Acessar...</Link>
+                    <Link className="links" to={"/tech/redes"}>Acessar...</Link>
                 </div>
             </div>
 
